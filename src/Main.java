@@ -37,6 +37,12 @@ public class Main {
             System.out.println(num2 + " is largest");
         }
     }
+
+
+
+
+
+
     public static void main(String[] args) {
 
         evenOdd(2);
@@ -46,5 +52,27 @@ public class Main {
         areaOfRectrangle(18 ,20);
 
         largest(2,12);
+
+
+        int arr[]={1,33,33,44,99};
+        int array= arr[0];
+
+        for (int i=0;i<arr.length;i++){
+
+            if (array < arr[i]){
+                array = arr[i];
+            }
+        }
+        System.out.println(array);
+
+
+
+        int array1[]={1,2,3,4};
+
+        for (int i=array1.length-1;i>=0;i--){
+            System.out.print(array1[i] + " ");
+        }
+
+
     }
 }
